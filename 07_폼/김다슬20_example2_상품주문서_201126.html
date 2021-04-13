@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>20_example2_상품주문서</title>
+</head>
+<body>
+      <h1>상품주문서</h1>
+      
+      <form action="#" method="post"></form>
+          
+              <fieldset>
+                  <legend>개인정보</legend>
+                  <ul>
+                      <li><label>이&nbsp;&nbsp;&nbsp;름
+                      <input type="text" placeholder="이름을 입력하세요." autofocus required></label></li>
+                      <li><label> 연락처 <input type="tel" required></label></li>
+                      <li><label> 이메일 <input type="email" required></label></li>
+                  </ul>
+              </fieldset><br>
+  
+                <fieldset>
+                  <legend>배송지 정보</legend>
+                    <ul>
+                        <li><label>주소 <input type="text"></label></li>
+                        <li><label>전화 <input type="tel"></label></li>
+                        <li><label>메모 <textarea cols="40" rows="3" readonly>배송 메모를 확인하세요.</textarea></label></li>
+                    </ul>
+              </fieldset><br>
+
+              <fieldset>
+                  <legend>주문 정보</legend>
+                  <ul>
+                      <li><label>아이디 <input type="text" placeholder="아이디 수정불가" disabled></label></li>
+                      <li><label><input type="checkbox">과테말라 안티구이 (100g) <input type="number" min="0" max="50" value="1" step="5"></label></li>
+                      <li><label><input type="checkbox">인도네시아 만델링 (100g) <input type="number" min="0" max="50" value="1" step="5"></label></li>                      
+                      <li><label><input type="checkbox">탐라는도다 블렌딩 (100g) <input type="number" min="0" max="50" value="1" step="5"></label></li>                      
+                        
+                  </ul>
+                  
+              </fieldset>
+              <br>
+              <input type="submit" value="주문하기"> <input type="reset" value="재작성">
+
+<!--  <!--
+   <h1>상품주문서</h1>
+    <form action="#">
+       <fieldset><legend>개인정보</legend>
+       <ul>
+       <li>이&nbsp;&nbsp;&nbsp;름 <input type="text" placeholder="이름을 입력하세요."> </li> 
+       <li>연락처 <input type="tel"></li>
+       <li>이메일 <input type="email"></li></ul>
+       
+        </fieldset>
+        <fieldset><legend>배송지 정보</legend>
+       
+       <ul>
+           <li>주소 <input type="area"></li>
+           <li>전화 <input type="tel"></li>
+           <li>메모 <textarea cols="30" rows="3" placeholder="메모를 확인하세요."></textarea></li>
+       </ul>
+       
+       </fieldset>
+    
+       <fieldset><legend>주문 정보</legend>
+       
+       <ul>
+           <li>아이디 </li>
+           
+            <li><label><input type="checkbox" name="web">과테말라 안티구이 (100g) <input type="number" min="0" max="50" value="1" step="5"></label></li>
+           
+           <li><label><input type="checkbox" name="web">인도네시아 만델링 (100g) <input type="number" min="0" max="50" value="1" step="5"></label></li>
+           
+           <li><label for="order">
+           <input type="checkbox">탐라는도다 블렌딩 (100g) <input type="number" min="0" max="50" value="1" step="5">
+           </label>
+           </li>
+        </ul>
+       </fieldset>
+        
+        <p>
+            <input type="submit" value="주문하기"> <input type="reset" value="재작성">
+        </p>
+        
+    </form>-->
+</body>
+</html>

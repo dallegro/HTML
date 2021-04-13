@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>13_html5-form-validation</title>
+</head>
+<body>
+	
+	<form action="login.php" method="post">
+		<!--
+		method속성 : 사용자가 입력한 내용을 서버 프로그램으로 어떻게 넘겨줄 지 지정
+		
+		1)get : 주소 표시줄에 입력한 내용 노출, 256byte~4096byte의 데이터만 서버로 전달 가능
+		
+		2)post : 사용자의 입력을 표준입력(standard input)으로 넘기기 때문에 입력 내용 길이에 제한 없음. 사용자가 입력한 내용이 드러나지 않음	
+		-->
+		
+		<p>사용자명 : <input type="text" name="user" required></p>
+		<p>비밀번호 : <input type="password" name="pw" required></p>
+		
+		<input type="reset" value="다시작성"> <input type="submit" value="제출">
+	</form>
+	
+	
+	
+</body>
+</html>
